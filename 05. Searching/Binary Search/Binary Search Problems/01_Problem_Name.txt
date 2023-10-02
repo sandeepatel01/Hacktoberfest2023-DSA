@@ -1,0 +1,4 @@
+01. first occurrence of element in sorted array
+02. Last occurrence of element in sorted array
+03. Total occurrence of element in sorted array
+04. missing element in sorted array
