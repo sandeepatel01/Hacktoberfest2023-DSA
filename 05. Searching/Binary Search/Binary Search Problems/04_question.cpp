@@ -9,6 +9,11 @@
 // Input : ar[] = {1, 2, 3, 4, 5, 7, 8}
 // Output : 6
 
+// A simple solution is to linearly traverse the given array. Find the point where current element is not one more than previous.
+// An efficient solution is to use binary search. We use the index to search for the missing element and modified binary search. 
+//  If element at mid != index+1 and this is first missing element then mid + 1 is the missing element. 
+//  Else if this is not first missing element but ar[mid] != mid+1 search in left half. Else search in right half and if left>right then no element is missing. 
+
 
 #include<bits/stdc++.h>
 using namespace std;
